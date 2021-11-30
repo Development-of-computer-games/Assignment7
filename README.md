@@ -7,3 +7,4 @@
 
 # Explaination :
 We created a Dijkstra script that will execute our algorithm. We extended the graph interface that will return us also the wieghts and the speed in order to determine each time the cost of passing each tile.
+[link to the dijksta](https://github.com/Development-of-computer-games/Assignment7/blob/main/Assets/Scripts/Dijkstra/Dijkstra.cs)
