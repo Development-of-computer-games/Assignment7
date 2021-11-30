@@ -6,11 +6,17 @@ using UnityEngine.Tilemaps;
 /**
  * A graph that represents a tilemap, using only the allowed tiles.
  */
+
+
 public class TilemapGraph: IGraph<Vector3Int> {
+    public static int bushesSpeed = 5;
+    public static int grassSpeed = 50;
+    public static int hillsSpeed = 14;
+    public static int swampSpeed = 1;
     private Tilemap tilemap;
     private TileBase[] allowedTiles;
     private int[] weights = { 30, 6, 5, 4 };
-    private int []  speeds = { 5, 50, 1, 3 };
+    private int []  speeds = { bushesSpeed, grassSpeed, hillsSpeed, swampSpeed };
 
 
     public TilemapGraph(Tilemap tilemap, TileBase[] allowedTiles) {

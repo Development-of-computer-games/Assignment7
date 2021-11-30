@@ -90,19 +90,19 @@ public class TargetMover: MonoBehaviour {
         switch (name)
         {
             case "bushes":
-                return 5 / speed;
+                return TilemapGraph.bushesSpeed / speed;
                 break;
 
             case "grass":
-                return 7 / speed;
+                return TilemapGraph.grassSpeed / speed;
                 break;
 
             case "swamp":
-                return 1 / speed;
+                return TilemapGraph .swampSpeed/ speed;
                 break;
 
             case "hills":
-                return 10 / speed;
+                return TilemapGraph.hillsSpeed / speed;
                 break;
 
             default:
