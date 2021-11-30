@@ -18,3 +18,6 @@ hills :
 bushes:![bushes](https://user-images.githubusercontent.com/57447482/144030049-b132a4d5-e2c4-4171-a152-cd9b81bac8fd.png)
 
 swamp is the fastest, then the hills , then the bushes and last the grass.
+
+<br />
+[Link to the game](https://eladwd.itch.io/pathfindingdijkstra)
